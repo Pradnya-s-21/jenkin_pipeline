@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/Pradnya-s-21/jenkin_pipeline.git'
+                git branch: 'master', url: 'https://github.com/Pradnya-s-21/jenkin_pipeline2.git'
             }
         }
 
